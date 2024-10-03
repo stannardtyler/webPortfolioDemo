@@ -1,0 +1,25 @@
+/* CSS files add styling rules to your content */
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.jumbotron {
+  background-image: url("https://cdn.glitch.com/c57bbfe0-fde7-48da-929d-e0a39b801fd2%2Fsplash-art.jpg?v=1615078379209");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+}
